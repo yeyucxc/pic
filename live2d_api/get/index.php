@@ -1,5 +1,5 @@
 <?php
-isset($_GET['id']) ? $id = $_GET['id'] : exit('error');
+isset($_GET['id']) $id = $_GET['id'] : exit('error');
 
 require '../tools/modelList.php';
 require '../tools/modelTextures.php';
