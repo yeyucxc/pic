@@ -1,6 +1,11 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
+<<<<<<< HEAD
 const live2d_path = "https://yeyucxc.top/wp-content/themes/Sakura/live2d_load_own/";
 const tips_path = "https://yeyucxc.top/wp-content/themes/Sakura/live2d_load_own/";
+=======
+const live2d_path = "https://cdn.jsdelivr.net/gh/yeyucxc/pic/live2d_load_own/";
+const tips_path = "https://cdn.jsdelivr.net/gh/yeyucxc/pic/live2d_load_own/";
+>>>>>>> 6449a5cb23b687e9842c9eb2f94dabb5d67b0544
 //const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -34,8 +39,13 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
+<<<<<<< HEAD
 			apiPath: "https://yeyucxc.top/wp-content/themes/Sakura/live2d_api/",
 			cdnPath: "https://yeyucxc.top/wp-content/themes/Sakura/live2d_api/"从本地加载此项不用管
+=======
+			apiPath: "https://github.com/yeyucxc/pic/tree/master/live2d_api/",
+			//cdnPath: "https://你的CDN域名/live2d_api/"从本地加载此项不用管
+>>>>>>> 6449a5cb23b687e9842c9eb2f94dabb5d67b0544
 		});
 	});
 console.log(`
